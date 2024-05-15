@@ -1,7 +1,8 @@
 # VLSI-LAB-EXP-5
+
 # SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
 
-Date:
+**Date:**
 
 
 **AIM:** To simulate and synthesis finite state machine using Xilinx ISE.
@@ -36,11 +37,11 @@ STEP:11 On the board, by giving required input, the LEDs starts to glow light, i
 
 STEP:12 Load the Bit file into the SPARTAN 6 FPGA 
 
-Logic Diagram :
+**Logic Diagram:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
 
-VERILOG CODE :
+**VERILOG CODE:**
 
 ```
 module fsm(clk, rst, x, z);
@@ -76,7 +77,7 @@ assign z=(present_state==S3);
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-5/assets/147235565/4f03a0f9-8ec0-40b8-80b4-d726e636cd53)
 
